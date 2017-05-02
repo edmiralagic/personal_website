@@ -29,6 +29,10 @@ html, body {
     background: rgb(15, 18, 74);
 }
 
+.has-margin-15 {
+    margin: 15px;
+}
+
 .has-margin-10 {
     margin: 10px;
 }

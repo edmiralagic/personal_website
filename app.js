@@ -7,8 +7,6 @@ function createDot(x, y) {
     }
     elem.setAttribute("style", "left:" + x + "px;top:" + y + "px;");
     document.getElementsByTagName("body")[0].appendChild(elem);
-    elem.animate({left: "+=500"}, 2000);
-    elem.animate({left: "-=300"}, 1000);
     return elem;
 }
 
